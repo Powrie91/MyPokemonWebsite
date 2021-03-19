@@ -1,0 +1,74 @@
+body {
+    background-color: red;
+        border-style: solid;  
+    }
+p, li {
+    color: white;
+}
+h1, h2 {
+    color: yellow
+}
+    ol {
+    color: white
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row
+    align-items: center;
+    justify-content: center;
+}
+a:link {
+    color:white;
+  }
+  
+  a:visited {
+    color:yellow;
+  }
+  
+  a:hover {
+    color:pink;
+  }
+  
+  a:active {
+    color: blue;
+  }
+.contactform {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+        input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+        }
+    
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+          }
+          
+        .contactform {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
