@@ -72,3 +72,15 @@ a:link {
             background-color: #f2f2f2;
             padding: 20px;
           }
+
+          #pikachuhat {
+            display: flex;
+    align-items: center;
+    justify-content: center;
+          }
+        
+            
+        #cute {
+          display: flex;
+          justify-content: center;
+        }
